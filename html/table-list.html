@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables And List</title>
+    <style>
+      /* RESET */
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      /* MAIN STYLING */
+      body,
+      html {
+        line-height: 1.7em;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #fafafa;
+      }
+      a {
+        text-decoration: none;
+        color: #a5ffc9;
+        font-weight: bold;
+      }
+
+      h1,
+      h2,
+      h3 {
+        padding-bottom: 20px;
+      }
+
+      p {
+        margin: 10px 0;
+        font-size: 18px;
+      }
+      /* LISTS */
+      #wild-animals {
+        background-color: rgba(204, 204, 204, 0.2);
+        padding: 30px;
+      }
+      .wild-animals ol li {
+        text-align: center;
+        list-style-position: inside;
+      }
+      .wild-animals h3 {
+        text-align: center;
+      }
+      /* Table section */
+      #table {
+        width: 50%;
+        margin: auto;
+        padding: 50px 0;
+      }
+      #table h3 {
+        text-align: center;
+      }
+      table {
+        width: 70%;
+        border-collapse: collapse;
+        margin: auto;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #333;
+      }
+      th,
+      td {
+        height: 40px;
+        /* width: 200px; */
+        text-align: left;
+        padding: 0 10px;
+      }
+      th {
+        background: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section id="wild-animals">
+        <div class="wild-animals">
+          <h3>Lists Wild Animals</h3>
+          <ol>
+            <li>Tiger</li>
+            <li>Leopard</li>
+            <li>Antelope</li>
+            <li>Gorilla</li>
+            <li>Lion</li>
+            <li>Bear</li>
+            <li>Lion</li>
+            <li>Elephant</li>
+            <li>Fox</li>
+            <li>Wolf</li>
+          </ol>
+        </div>
+      </section>
+      <section id="table">
+        <h3>Some State And Their Capital</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Serial Number</th>
+              <th>State</th>
+              <th>Capital</th>
+              <th>Current Governor</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Anambra</td>
+              <td>Awka</td>
+              <td>Prof. Soludo</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Akwa Ibom</td>
+              <td>Uyo</td>
+              <td>Udom Gabriel Emmanuel</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Bauchi</td>
+              <td>Bauchi</td>
+              <td>Bala Mohammed</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Bayelsa</td>
+              <td>Yenagoa</td>
+              <td>Douye Diri</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Edo</td>
+              <td>Benin City</td>
+              <td>Godwin Obaseki</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Imo</td>
+              <td>Owerri</td>
+              <td>Hope Odidika Uzodinma</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Kaduna</td>
+              <td>Kaduna</td>
+              <td>Nasir Ahmad el-Rufa</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Kebbi</td>
+              <td>Birnin Kebbi</td>
+              <td>Abubakar Atiku Bagudu</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Rivers</td>
+              <td>Port Harcourt</td>
+              <td>Ezenwo Nyesom Wike</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Taraba</td>
+              <td>Jalingo</td>
+              <td>Darius Ishaku</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
